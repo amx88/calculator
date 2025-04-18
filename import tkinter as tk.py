@@ -39,7 +39,7 @@ class Calculator:
             self.entry.delete(0, tk.END)
             self.entry.insert(0, "שגיאה")
 
-# הפעלת התוכנית
+# start up program
 if __name__ == "__main__":
     root = tk.Tk()
     app = Calculator(root)
