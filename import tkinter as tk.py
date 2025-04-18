@@ -3,7 +3,7 @@ import tkinter as tk
 class Calculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("מחשבון")
+        self.root.title("calculator")
 
         self.entry = tk.Entry(root, width=16, font=('Arial', 24), borderwidth=2, relief="solid", justify='right')
         self.entry.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
