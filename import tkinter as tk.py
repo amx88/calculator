@@ -37,7 +37,7 @@ class Calculator:
             self.entry.insert(0, str(result))
         except Exception as e:
             self.entry.delete(0, tk.END)
-            self.entry.insert(0, "שגיאה")
+            self.entry.insert(0, "error")
 
 # start up program
 if __name__ == "__main__":
